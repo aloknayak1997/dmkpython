@@ -1,0 +1,824 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../attendence/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../class_user_profiling/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../dashboard/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../fees_management/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../manage_hr/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	../onboarding/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20180702_1110.py	../fees_management/migrations/0002_auto_20180702_1110.py	1;"	kind:file	line:1
+0002_dpyinstituteclass_institute.py	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	1;"	kind:file	line:1
+0002_dpyleavetypes.py	../manage_hr/migrations/0002_dpyleavetypes.py	1;"	kind:file	line:1
+0003_auto_20180702_1122.py	../fees_management/migrations/0003_auto_20180702_1122.py	1;"	kind:file	line:1
+0004_auto_20180702_1132.py	../fees_management/migrations/0004_auto_20180702_1132.py	1;"	kind:file	line:1
+0005_auto_20180703_1204.py	../fees_management/migrations/0005_auto_20180703_1204.py	1;"	kind:file	line:1
+0006_auto_20180703_1228.py	../fees_management/migrations/0006_auto_20180703_1228.py	1;"	kind:file	line:1
+0007_auto_20180704_0758.py	../fees_management/migrations/0007_auto_20180704_0758.py	1;"	kind:file	line:1
+0008_auto_20180705_0759.py	../fees_management/migrations/0008_auto_20180705_0759.py	1;"	kind:file	line:1
+0009_auto_20180705_0806.py	../fees_management/migrations/0009_auto_20180705_0806.py	1;"	kind:file	line:1
+0010_auto_20180705_0808.py	../fees_management/migrations/0010_auto_20180705_0808.py	1;"	kind:file	line:1
+0011_auto_20180705_0919.py	../fees_management/migrations/0011_auto_20180705_0919.py	1;"	kind:file	line:1
+0012_auto_20180705_0919.py	../fees_management/migrations/0012_auto_20180705_0919.py	1;"	kind:file	line:1
+0013_auto_20180705_0920.py	../fees_management/migrations/0013_auto_20180705_0920.py	1;"	kind:file	line:1
+0014_auto_20180705_0939.py	../fees_management/migrations/0014_auto_20180705_0939.py	1;"	kind:file	line:1
+0015_auto_20180705_0942.py	../fees_management/migrations/0015_auto_20180705_0942.py	1;"	kind:file	line:1
+0016_auto_20180705_0956.py	../fees_management/migrations/0016_auto_20180705_0956.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../dmkpython/settings.py	/^ALLOWED_HOSTS = ['*']$/;"	kind:variable	line:28
+AUTHENTICATION_BACKENDS	../dmkpython/settings.py	/^AUTHENTICATION_BACKENDS = ('login.backends.AuthBackend',)$/;"	kind:variable	line:156
+AUTH_PASSWORD_VALIDATORS	../dmkpython/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:114
+AUTH_USER_MODEL	../dmkpython/settings.py	/^AUTH_USER_MODEL = 'onboarding.DpyUsers'$/;"	kind:variable	line:155
+AttendenceConfig	../attendence/apps.py	/^class AttendenceConfig(AppConfig):$/;"	kind:class	line:4
+AuthBackend	../login/backends.py	/^class AuthBackend(object):$/;"	kind:class	line:5
+BASE_DIR	../dmkpython/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CORS_ORIGIN_WHITELIST	../dmkpython/settings.py	/^CORS_ORIGIN_WHITELIST = ($/;"	kind:variable	line:181
+ClassUserProfilingConfig	../class_user_profiling/apps.py	/^class ClassUserProfilingConfig(AppConfig):$/;"	kind:class	line:4
+CurrentUserView	../login/views.py	/^class CurrentUserView(APIView):$/;"	kind:class	line:18
+CustomUserAdmin	../login/admin.py	/^class CustomUserAdmin(UserAdmin):$/;"	kind:class	line:10
+DATABASES	../dmkpython/settings.py	/^DATABASES = {$/;"	kind:variable	line:96
+DEBUG	../dmkpython/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DashboardConfig	../dashboard/apps.py	/^class DashboardConfig(AppConfig):$/;"	kind:class	line:4
+DpyDepartment	../class_user_profiling/models.py	/^class DpyDepartment(models.Model):$/;"	kind:class	line:6
+DpyEmployee	../manage_hr/models.py	/^class DpyEmployee(models.Model):$/;"	kind:class	line:4
+DpyEmployeeSalaryStructure	../manage_hr/models.py	/^class DpyEmployeeSalaryStructure(models.Model):$/;"	kind:class	line:60
+DpyFeeTransaction	../fees_management/models.py	/^class DpyFeeTransaction(models.Model):$/;"	kind:class	line:66
+DpyFeeType	../fees_management/models.py	/^class DpyFeeType(models.Model):$/;"	kind:class	line:6
+DpyInstitute	../onboarding/models.py	/^class DpyInstitute(models.Model):$/;"	kind:class	line:13
+DpyInstituteClass	../class_user_profiling/models.py	/^class DpyInstituteClass(models.Model):$/;"	kind:class	line:22
+DpyInstituteClassFee	../fees_management/models.py	/^class DpyInstituteClassFee(models.Model):$/;"	kind:class	line:18
+DpyInstituteClassSession	../class_user_profiling/models.py	/^class DpyInstituteClassSession(models.Model):$/;"	kind:class	line:43
+DpyInstituteClassSessionSubjects	../class_user_profiling/models.py	/^class DpyInstituteClassSessionSubjects(models.Model):$/;"	kind:class	line:60
+DpyInstituteUsers	../onboarding/models.py	/^class DpyInstituteUsers(models.Model):$/;"	kind:class	line:77
+DpyLeaveTypes	../manage_hr/models.py	/^class DpyLeaveTypes(models.Model):$/;"	kind:class	line:45
+DpyPaymentReceipt	../fees_management/models.py	/^class DpyPaymentReceipt(models.Model):$/;"	kind:class	line:49
+DpyStudents	../dashboard/models.py	/^class DpyStudents(models.Model):$/;"	kind:class	line:4
+DpyStudentsAbsenties	../attendence/models.py	/^class DpyStudentsAbsenties(models.Model):$/;"	kind:class	line:4
+DpyUserChangeForm	../login/forms.py	/^class DpyUserChangeForm(UserChangeForm):$/;"	kind:class	line:11
+DpyUserCreationForm	../login/forms.py	/^class DpyUserCreationForm(UserCreationForm):$/;"	kind:class	line:5
+DpyUserFeeIgnore	../fees_management/models.py	/^class DpyUserFeeIgnore(models.Model):$/;"	kind:class	line:35
+DpyUsers	../onboarding/models.py	/^class DpyUsers(AbstractUser):$/;"	kind:class	line:41
+EMAIL_BACKEND	../dmkpython/settings.py	/^EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'$/;"	kind:variable	line:157
+FeesManagementConfig	../fees_management/apps.py	/^class FeesManagementConfig(AppConfig):$/;"	kind:class	line:4
+INSTALLED_APPS	../dmkpython/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+InstituteSerializer	../onboarding/serializers.py	/^class InstituteSerializer(serializers.ModelSerializer):$/;"	kind:class	line:7
+InstituteUserSerializer	../onboarding/serializers.py	/^class InstituteUserSerializer(serializers.ModelSerializer):$/;"	kind:class	line:62
+LANGUAGE_CODE	../dmkpython/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:133
+Leave	../manage_hr/models.py	/^class Leave(models.Model):$/;"	kind:class	line:29
+LoginConfig	../login/apps.py	/^class LoginConfig(AppConfig):$/;"	kind:class	line:4
+LogoutViewEx	../login/views.py	/^class LogoutViewEx(LogoutView):$/;"	kind:class	line:15
+MEDIA_ROOT	../dmkpython/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'media')$/;"	kind:variable	line:153
+MEDIA_URL	../dmkpython/settings.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:152
+MIDDLEWARE	../dmkpython/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:54
+ManageHrConfig	../manage_hr/apps.py	/^class ManageHrConfig(AppConfig):$/;"	kind:class	line:4
+ManageProfile	../dashboard/views.py	/^class ManageProfile(APIView):$/;"	kind:class	line:157
+Meta	../attendence/forms.py	/^	class Meta:$/;"	kind:class	line:5
+Meta	../attendence/models.py	/^    class Meta:$/;"	kind:class	line:13
+Meta	../class_user_profiling/models.py	/^    class Meta:$/;"	kind:class	line:14
+Meta	../class_user_profiling/models.py	/^    class Meta:$/;"	kind:class	line:35
+Meta	../class_user_profiling/models.py	/^    class Meta:$/;"	kind:class	line:53
+Meta	../class_user_profiling/models.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	../dashboard/forms.py	/^	class Meta:$/;"	kind:class	line:11
+Meta	../dashboard/forms.py	/^	class Meta:$/;"	kind:class	line:5
+Meta	../dashboard/models.py	/^    class Meta:$/;"	kind:class	line:29
+Meta	../dashboard/resources.py	/^    class Meta:$/;"	kind:class	line:10
+Meta	../dashboard/resources.py	/^    class Meta:$/;"	kind:class	line:5
+Meta	../dashboard/serializers.py	/^    class Meta:$/;"	kind:class	line:6
+Meta	../fees_management/models.py	/^    class Meta:$/;"	kind:class	line:13
+Meta	../fees_management/models.py	/^    class Meta:$/;"	kind:class	line:31
+Meta	../fees_management/models.py	/^    class Meta:$/;"	kind:class	line:45
+Meta	../fees_management/models.py	/^    class Meta:$/;"	kind:class	line:61
+Meta	../fees_management/models.py	/^    class Meta:$/;"	kind:class	line:81
+Meta	../login/forms.py	/^    class Meta(UserCreationForm.Meta):$/;"	kind:class	line:7
+Meta	../login/forms.py	/^    class Meta:$/;"	kind:class	line:13
+Meta	../manage_hr/models.py	/^    class Meta:$/;"	kind:class	line:24
+Meta	../manage_hr/models.py	/^    class Meta:$/;"	kind:class	line:41
+Meta	../manage_hr/models.py	/^    class Meta:$/;"	kind:class	line:56
+Meta	../manage_hr/models.py	/^    class Meta:$/;"	kind:class	line:81
+Meta	../onboarding/forms.py	/^    class Meta:$/;"	kind:class	line:8
+Meta	../onboarding/models.py	/^    class Meta:$/;"	kind:class	line:34
+Meta	../onboarding/models.py	/^    class Meta:$/;"	kind:class	line:53
+Meta	../onboarding/models.py	/^    class Meta:$/;"	kind:class	line:91
+Meta	../onboarding/serializers.py	/^    class Meta:$/;"	kind:class	line:54
+Meta	../onboarding/serializers.py	/^    class Meta:$/;"	kind:class	line:66
+Meta	../onboarding/serializers.py	/^    class Meta:$/;"	kind:class	line:8
+Migration	../attendence/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../class_user_profiling/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../dashboard/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../fees_management/migrations/0002_auto_20180702_1110.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../fees_management/migrations/0003_auto_20180702_1122.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../fees_management/migrations/0004_auto_20180702_1132.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../fees_management/migrations/0005_auto_20180703_1204.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0006_auto_20180703_1228.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0007_auto_20180704_0758.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0008_auto_20180705_0759.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0009_auto_20180705_0806.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../fees_management/migrations/0010_auto_20180705_0808.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../fees_management/migrations/0011_auto_20180705_0919.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0012_auto_20180705_0919.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0013_auto_20180705_0920.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0014_auto_20180705_0939.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0015_auto_20180705_0942.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../fees_management/migrations/0016_auto_20180705_0956.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../manage_hr/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../manage_hr/migrations/0002_dpyleavetypes.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../onboarding/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:11
+OnboardInstitute	../onboarding/forms.py	/^class OnboardInstitute(forms.ModelForm):$/;"	kind:class	line:7
+OnboardingConfig	../onboarding/apps.py	/^class OnboardingConfig(AppConfig):$/;"	kind:class	line:4
+REST_FRAMEWORK	../dmkpython/settings.py	/^REST_FRAMEWORK = {$/;"	kind:variable	line:159
+ROOT_URLCONF	../dmkpython/settings.py	/^ROOT_URLCONF = 'dmkpython.urls'$/;"	kind:variable	line:65
+STATICFILES_DIRS	../dmkpython/settings.py	/^STATICFILES_DIRS = ($/;"	kind:variable	line:148
+STATIC_URL	../dmkpython/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:147
+SWAGGER_SETTINGS	../dmkpython/settings.py	/^SWAGGER_SETTINGS = {$/;"	kind:variable	line:176
+SignUp	../onboarding/views.py	/^class SignUp(APIView):$/;"	kind:class	line:16
+Student_update_form	../dashboard/forms.py	/^class Student_update_form(forms.ModelForm):$/;"	kind:class	line:10
+StudentsResource	../dashboard/resources.py	/^class StudentsResource(resources.ModelResource):$/;"	kind:class	line:4
+StudentsSerializer	../dashboard/serializers.py	/^class StudentsSerializer(serializers.ModelSerializer):$/;"	kind:class	line:5
+Students_absenties_form	../attendence/forms.py	/^class Students_absenties_form(forms.ModelForm):$/;"	kind:class	line:4
+Students_reg_form	../dashboard/forms.py	/^class Students_reg_form(forms.ModelForm):$/;"	kind:class	line:4
+TEMPLATES	../dmkpython/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:67
+TIME_ZONE	../dmkpython/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:135
+USE_I18N	../dmkpython/settings.py	/^USE_I18N = True$/;"	kind:variable	line:137
+USE_L10N	../dmkpython/settings.py	/^USE_L10N = True$/;"	kind:variable	line:139
+USE_TZ	../dmkpython/settings.py	/^USE_TZ = True$/;"	kind:variable	line:141
+UserSerializer	../onboarding/serializers.py	/^class UserSerializer(serializers.ModelSerializer):$/;"	kind:class	line:36
+UsersResource	../dashboard/resources.py	/^class UsersResource(resources.ModelResource):$/;"	kind:class	line:9
+WSGI_APPLICATION	../dmkpython/settings.py	/^WSGI_APPLICATION = 'dmkpython.wsgi.application'$/;"	kind:variable	line:84
+__init__.py	../attendence/__init__.py	1;"	kind:file	line:1
+__init__.py	../attendence/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../class_user_profiling/__init__.py	1;"	kind:file	line:1
+__init__.py	../class_user_profiling/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../dashboard/__init__.py	1;"	kind:file	line:1
+__init__.py	../dashboard/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../dashboard/templatetags/__init__.py	1;"	kind:file	line:1
+__init__.py	../dmkpython/__init__.py	1;"	kind:file	line:1
+__init__.py	../fees_management/__init__.py	1;"	kind:file	line:1
+__init__.py	../fees_management/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../login/__init__.py	1;"	kind:file	line:1
+__init__.py	../login/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../manage_hr/__init__.py	1;"	kind:file	line:1
+__init__.py	../manage_hr/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../onboarding/__init__.py	1;"	kind:file	line:1
+__init__.py	../onboarding/migrations/__init__.py	1;"	kind:file	line:1
+__str__	../class_user_profiling/models.py	/^    def __str__(self):$/;"	kind:member	line:18
+__str__	../class_user_profiling/models.py	/^    def __str__(self):$/;"	kind:member	line:39
+__str__	../class_user_profiling/models.py	/^    def __str__(self):$/;"	kind:member	line:57
+__str__	../class_user_profiling/models.py	/^    def __str__(self):$/;"	kind:member	line:72
+__str__	../onboarding/models.py	/^    def __str__(self):$/;"	kind:member	line:38
+__str__	../onboarding/models.py	/^    def __str__(self):$/;"	kind:member	line:72
+__str__	../onboarding/models.py	/^    def __str__(self):$/;"	kind:member	line:95
+add_fee	../fees_management/views.py	/^def add_fee(request):$/;"	kind:function	line:22
+add_form	../login/admin.py	/^    add_form = DpyUserCreationForm$/;"	kind:variable	line:11
+add_sal_struc	../manage_hr/views.py	/^def add_sal_struc(request):$/;"	kind:function	line:127
+added_by	../fees_management/models.py	/^    added_by = models.IntegerField()$/;"	kind:variable	line:24
+added_by	../fees_management/models.py	/^    added_by = models.IntegerField()$/;"	kind:variable	line:38
+added_by	../fees_management/models.py	/^    added_by = models.IntegerField()$/;"	kind:variable	line:55
+added_by	../fees_management/models.py	/^    added_by = models.IntegerField()$/;"	kind:variable	line:73
+added_by	../fees_management/models.py	/^    added_by = models.IntegerField()$/;"	kind:variable	line:8
+added_on	../fees_management/models.py	/^    added_on = models.DateTimeField()$/;"	kind:variable	line:25
+added_on	../fees_management/models.py	/^    added_on = models.DateTimeField()$/;"	kind:variable	line:39
+added_on	../fees_management/models.py	/^    added_on = models.DateTimeField()$/;"	kind:variable	line:56
+added_on	../fees_management/models.py	/^    added_on = models.DateTimeField()$/;"	kind:variable	line:74
+added_on	../fees_management/models.py	/^    added_on = models.DateTimeField()$/;"	kind:variable	line:9
+addleave	../manage_hr/views.py	/^def addleave(request):$/;"	kind:function	line:138
+address	../onboarding/models.py	/^    address = models.CharField(max_length=110,blank=True)$/;"	kind:variable	line:23
+adhar_no	../dashboard/models.py	/^    adhar_no = models.CharField(max_length=20)$/;"	kind:variable	line:20
+admin.py	../attendence/admin.py	1;"	kind:file	line:1
+admin.py	../class_user_profiling/admin.py	1;"	kind:file	line:1
+admin.py	../dashboard/admin.py	1;"	kind:file	line:1
+admin.py	../fees_management/admin.py	1;"	kind:file	line:1
+admin.py	../login/admin.py	1;"	kind:file	line:1
+admin.py	../manage_hr/admin.py	1;"	kind:file	line:1
+admin.py	../onboarding/admin.py	1;"	kind:file	line:1
+amount	../fees_management/models.py	/^    amount = models.IntegerField()$/;"	kind:variable	line:19
+app_name	../attendence/urls.py	/^app_name = 'attendence'$/;"	kind:variable	line:6
+app_name	../class_user_profiling/urls.py	/^app_name = 'class_user_profiling'$/;"	kind:variable	line:4
+app_name	../dashboard/urls.py	/^app_name = 'dashboard'$/;"	kind:variable	line:6
+app_name	../fees_management/urls.py	/^app_name = 'fees_management'$/;"	kind:variable	line:9
+app_name	../login/urls.py	/^app_name = 'login'$/;"	kind:variable	line:4
+app_name	../manage_hr/urls.py	/^app_name='manage_hr'$/;"	kind:variable	line:4
+app_name	../onboarding/urls.py	/^app_name = 'onboarding'$/;"	kind:variable	line:5
+application	../dmkpython/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apply_attendence	../attendence/views.py	/^def apply_attendence(request):$/;"	kind:function	line:72
+apps.py	../attendence/apps.py	1;"	kind:file	line:1
+apps.py	../class_user_profiling/apps.py	1;"	kind:file	line:1
+apps.py	../dashboard/apps.py	1;"	kind:file	line:1
+apps.py	../fees_management/apps.py	1;"	kind:file	line:1
+apps.py	../login/apps.py	1;"	kind:file	line:1
+apps.py	../manage_hr/apps.py	1;"	kind:file	line:1
+apps.py	../onboarding/apps.py	1;"	kind:file	line:1
+authenticate	../login/backends.py	/^    def authenticate(self, username, password):$/;"	kind:member	line:18
+authentication_classes	../login/views.py	/^    authentication_classes = (authentication.TokenAuthentication,)$/;"	kind:variable	line:16
+backends.py	../login/backends.py	1;"	kind:file	line:1
+basic	../manage_hr/models.py	/^    basic = models.IntegerField()$/;"	kind:variable	line:65
+basic_salary	../manage_hr/models.py	/^    basic_salary = models.IntegerField(db_column='Basic Salary')  # Field name made lowercase. Field renamed to remove unsuitable characters.$/;"	kind:variable	line:13
+batch	../class_user_profiling/models.py	/^    batch = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:27
+bifurcations	../fees_management/models.py	/^    bifurcations = models.TextField(blank=True, null=True)$/;"	kind:variable	line:22
+blood_group	../dashboard/models.py	/^    blood_group = models.CharField(max_length=20)$/;"	kind:variable	line:14
+board	../onboarding/models.py	/^    board = models.CharField(max_length=100,blank=True)$/;"	kind:variable	line:17
+bonus	../manage_hr/models.py	/^    bonus = models.IntegerField()$/;"	kind:variable	line:69
+bulk_upload	../dashboard/views.py	/^def bulk_upload(request):$/;"	kind:function	line:202
+calculate_profile	../dashboard/views.py	/^def calculate_profile(request):$/;"	kind:function	line:15
+caste	../dashboard/models.py	/^    caste = models.CharField(max_length=20)$/;"	kind:variable	line:15
+casual_leaves	../manage_hr/models.py	/^    casual_leaves = models.CharField(max_length=50)$/;"	kind:variable	line:16
+city	../onboarding/models.py	/^    city = models.CharField(max_length=20, null=True, blank=True)$/;"	kind:variable	line:24
+communication_address	../dashboard/models.py	/^    communication_address = models.CharField(max_length=255)$/;"	kind:variable	line:18
+contact	../onboarding/models.py	/^    contact = models.CharField(max_length=12,null=True)$/;"	kind:variable	line:16
+context_processor.py	../login/context_processor.py	1;"	kind:file	line:1
+country	../onboarding/models.py	/^    country = models.CharField(max_length=20, null=True, blank=True)$/;"	kind:variable	line:27
+create	../onboarding/serializers.py	/^    def create(self, validated_data):$/;"	kind:member	line:42
+create_auth_token	../onboarding/models.py	/^def create_auth_token(sender, instance=None, created=False, **kwargs):$/;"	kind:function	line:99
+created_by	../attendence/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:10
+created_by	../class_user_profiling/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:10
+created_by	../class_user_profiling/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:31
+created_by	../class_user_profiling/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:49
+created_by	../class_user_profiling/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:64
+created_by	../manage_hr/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:20
+created_by	../manage_hr/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:37
+created_by	../manage_hr/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:52
+created_by	../manage_hr/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:77
+created_by	../onboarding/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:30
+created_by	../onboarding/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:49
+created_by	../onboarding/models.py	/^    created_by = models.IntegerField(default=0)$/;"	kind:variable	line:87
+created_on	../attendence/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:9
+created_on	../class_user_profiling/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:30
+created_on	../class_user_profiling/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:48
+created_on	../class_user_profiling/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:63
+created_on	../class_user_profiling/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:9
+created_on	../manage_hr/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:19
+created_on	../manage_hr/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:36
+created_on	../manage_hr/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:51
+created_on	../manage_hr/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:76
+created_on	../onboarding/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:29
+created_on	../onboarding/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:48
+created_on	../onboarding/models.py	/^    created_on = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:86
+cs	../class_user_profiling/models.py	/^    cs = models.ForeignKey(DpyInstituteClassSession, on_delete=models.PROTECT)$/;"	kind:variable	line:61
+cycle	../fees_management/models.py	/^    cycle = models.IntegerField()$/;"	kind:variable	line:68
+cycle	../fees_management/models.py	/^    cycle = models.PositiveSmallIntegerField()$/;"	kind:variable	line:20
+cycle_slot	../fees_management/models.py	/^    cycle_slot = models.IntegerField()$/;"	kind:variable	line:69
+da	../manage_hr/models.py	/^    da = models.IntegerField()$/;"	kind:variable	line:68
+date	../attendence/models.py	/^    date = models.CharField(max_length=20)$/;"	kind:variable	line:5
+date_of_addmission	../dashboard/models.py	/^    date_of_addmission = models.CharField(max_length=20)$/;"	kind:variable	line:9
+date_of_join	../manage_hr/models.py	/^    date_of_join = models.CharField(db_column='Date of Join', max_length=10)  # Field name made lowercase. Field renamed to remove unsuitable characters.$/;"	kind:variable	line:12
+date_of_joining	../onboarding/models.py	/^    date_of_joining = models.DateField(null=True)$/;"	kind:variable	line:82
+date_of_leaving	../onboarding/models.py	/^    date_of_leaving = models.DateField(null=True)$/;"	kind:variable	line:83
+db_table	../attendence/models.py	/^        db_table = 'dpy_students_absenties'$/;"	kind:variable	line:15
+db_table	../class_user_profiling/models.py	/^        db_table = 'dpy_class_session'$/;"	kind:variable	line:54
+db_table	../class_user_profiling/models.py	/^        db_table = 'dpy_class_session_subject'$/;"	kind:variable	line:69
+db_table	../class_user_profiling/models.py	/^        db_table = 'dpy_department'$/;"	kind:variable	line:15
+db_table	../class_user_profiling/models.py	/^        db_table = 'dpy_institute_class'$/;"	kind:variable	line:36
+db_table	../dashboard/models.py	/^        db_table = 'dpy_students'$/;"	kind:variable	line:31
+db_table	../fees_management/models.py	/^        db_table = 'dpy_fee_transaction'$/;"	kind:variable	line:83
+db_table	../fees_management/models.py	/^        db_table = 'dpy_fee_type'$/;"	kind:variable	line:15
+db_table	../fees_management/models.py	/^        db_table = 'dpy_institute_class_fee'$/;"	kind:variable	line:33
+db_table	../fees_management/models.py	/^        db_table = 'dpy_payment_receipt'$/;"	kind:variable	line:63
+db_table	../fees_management/models.py	/^        db_table = 'dpy_user_fee_ignore'$/;"	kind:variable	line:47
+db_table	../manage_hr/models.py	/^        db_table = 'dpy_employee'$/;"	kind:variable	line:26
+db_table	../manage_hr/models.py	/^        db_table = 'dpy_employee_leave'$/;"	kind:variable	line:43
+db_table	../manage_hr/models.py	/^        db_table = 'dpy_employee_salary_structure'$/;"	kind:variable	line:83
+db_table	../manage_hr/models.py	/^        db_table = 'dpy_leave_types'$/;"	kind:variable	line:58
+db_table	../onboarding/models.py	/^        db_table = 'dpy_institute'$/;"	kind:variable	line:35
+db_table	../onboarding/models.py	/^        db_table = 'dpy_institute_user'$/;"	kind:variable	line:92
+db_table	../onboarding/models.py	/^        db_table = 'dpy_user'$/;"	kind:variable	line:54
+department	../class_user_profiling/models.py	/^    department = models.ForeignKey(DpyDepartment, on_delete=models.PROTECT)$/;"	kind:variable	line:23
+department	../manage_hr/models.py	/^    department = models.CharField(db_column='Department', max_length=20)  # Field name made lowercase.$/;"	kind:variable	line:10
+dependencies	../attendence/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../class_user_profiling/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../dashboard/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../fees_management/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../fees_management/migrations/0002_auto_20180702_1110.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../fees_management/migrations/0003_auto_20180702_1122.py	/^    dependencies = [$/;"	kind:variable	line:9
+dependencies	../fees_management/migrations/0004_auto_20180702_1132.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../fees_management/migrations/0005_auto_20180703_1204.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0006_auto_20180703_1228.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0007_auto_20180704_0758.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0008_auto_20180705_0759.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0009_auto_20180705_0806.py	/^    dependencies = [$/;"	kind:variable	line:9
+dependencies	../fees_management/migrations/0010_auto_20180705_0808.py	/^    dependencies = [$/;"	kind:variable	line:9
+dependencies	../fees_management/migrations/0011_auto_20180705_0919.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0012_auto_20180705_0919.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0013_auto_20180705_0920.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0014_auto_20180705_0939.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0015_auto_20180705_0942.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../fees_management/migrations/0016_auto_20180705_0956.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../manage_hr/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../manage_hr/migrations/0002_dpyleavetypes.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../onboarding/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:15
+desc	../fees_management/models.py	/^    desc = models.CharField(max_length=250)$/;"	kind:variable	line:7
+designation	../manage_hr/models.py	/^    designation = models.CharField(db_column='Designation', max_length=20)  # Field name made lowercase.$/;"	kind:variable	line:9
+designation	../onboarding/models.py	/^    designation = models.CharField(max_length=100)$/;"	kind:variable	line:81
+display_name	../fees_management/models.py	/^    display_name = models.CharField(max_length=250)$/;"	kind:variable	line:21
+division	../class_user_profiling/models.py	/^    division = models.CharField(max_length=100)$/;"	kind:variable	line:26
+dob	../dashboard/models.py	/^    dob = models.CharField(max_length=20)$/;"	kind:variable	line:12
+dob	../onboarding/models.py	/^    dob = models.DateField(null=True)$/;"	kind:variable	line:45
+download	../dashboard/views.py	/^def download(request, path="Students.csv"):$/;"	kind:function	line:296
+dsc	../fees_management/models.py	/^    dsc = models.TextField()$/;"	kind:variable	line:70
+email	../dashboard/models.py	/^    email = models.CharField(max_length=100,null="true")$/;"	kind:variable	line:13
+email	../manage_hr/models.py	/^    email = models.CharField(db_column='Email', max_length=50)  # Field name made lowercase.$/;"	kind:variable	line:15
+email	../onboarding/models.py	/^    email = models.EmailField(max_length=254, unique=True,null=True)$/;"	kind:variable	line:42
+email	../onboarding/serializers.py	/^    email = serializers.EmailField(required=True,validators=[UniqueValidator(queryset=DpyUsers.objects.all())])$/;"	kind:variable	line:38
+emp	../manage_hr/models.py	/^    emp = models.ForeignKey(DpyEmployee, models.PROTECT)$/;"	kind:variable	line:47
+emp	../manage_hr/models.py	/^    emp = models.ForeignKey(DpyEmployee, models.PROTECT)$/;"	kind:variable	line:61
+emp_id	../manage_hr/models.py	/^    emp_id = models.IntegerField()$/;"	kind:variable	line:30
+emp_name	../manage_hr/models.py	/^    emp_name = models.CharField(max_length=25)$/;"	kind:variable	line:31
+end_date	../manage_hr/models.py	/^    end_date = models.CharField(max_length=25)$/;"	kind:variable	line:34
+end_month	../class_user_profiling/models.py	/^    end_month = models.PositiveSmallIntegerField()$/;"	kind:variable	line:46
+extra_kwargs	../onboarding/serializers.py	/^        extra_kwargs = {$/;"	kind:variable	line:57
+fee_type	../fees_management/models.py	/^    fee_type = models.ForeignKey(DpyFeeType, models.DO_NOTHING)$/;"	kind:variable	line:28
+field	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='onboarding.DpyInstitute'),$/;"	kind:variable	line:20
+field	../fees_management/migrations/0002_auto_20180702_1110.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='fees_management.DpyInstituteClassFee'),$/;"	kind:variable	line:39
+field	../fees_management/migrations/0002_auto_20180702_1110.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to=settings.AUTH_USER_MODEL),$/;"	kind:variable	line:44
+field	../fees_management/migrations/0004_auto_20180702_1132.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='fees_management.DpyInstituteClassFee'),$/;"	kind:variable	line:44
+field	../fees_management/migrations/0004_auto_20180702_1132.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='fees_management.DpyPaymentReceipt'),$/;"	kind:variable	line:49
+field	../fees_management/migrations/0004_auto_20180702_1132.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to=settings.AUTH_USER_MODEL),$/;"	kind:variable	line:54
+field	../fees_management/migrations/0004_auto_20180702_1132.py	/^            field=models.TextField(),$/;"	kind:variable	line:39
+field	../fees_management/migrations/0005_auto_20180703_1204.py	/^            field=models.IntegerField(),$/;"	kind:variable	line:16
+field	../fees_management/migrations/0005_auto_20180703_1204.py	/^            field=models.PositiveSmallIntegerField(default=1),$/;"	kind:variable	line:26
+field	../fees_management/migrations/0005_auto_20180703_1204.py	/^            field=models.TextField(null=True),$/;"	kind:variable	line:21
+field	../fees_management/migrations/0008_auto_20180705_0759.py	/^            field=models.DateTimeField(default=0),$/;"	kind:variable	line:16
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.DateTimeField(),$/;"	kind:variable	line:22
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.DateTimeField(),$/;"	kind:variable	line:52
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, to='class_user_profiling.DpyInstituteClass'),$/;"	kind:variable	line:37
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.DO_NOTHING, to='fees_management.DpyFeeType'),$/;"	kind:variable	line:32
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.IntegerField(),$/;"	kind:variable	line:17
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.IntegerField(),$/;"	kind:variable	line:47
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.PositiveSmallIntegerField(),$/;"	kind:variable	line:42
+field	../fees_management/migrations/0009_auto_20180705_0806.py	/^            field=models.TextField(blank=True, null=True),$/;"	kind:variable	line:27
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.DateTimeField(auto_now_add=True),$/;"	kind:variable	line:22
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.DateTimeField(default=0),$/;"	kind:variable	line:52
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='class_user_profiling.DpyInstituteClass'),$/;"	kind:variable	line:37
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='fees_management.DpyFeeType'),$/;"	kind:variable	line:32
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.IntegerField(default=0),$/;"	kind:variable	line:17
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.IntegerField(default=0),$/;"	kind:variable	line:47
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.PositiveSmallIntegerField(default=1),$/;"	kind:variable	line:42
+field	../fees_management/migrations/0010_auto_20180705_0808.py	/^            field=models.TextField(null=True),$/;"	kind:variable	line:27
+field	../fees_management/migrations/0011_auto_20180705_0919.py	/^            field=models.IntegerField(default=0),$/;"	kind:variable	line:16
+field	../fees_management/migrations/0012_auto_20180705_0919.py	/^            field=models.DateTimeField(auto_now_add=True),$/;"	kind:variable	line:16
+field	../fees_management/migrations/0013_auto_20180705_0920.py	/^            field=models.DateTimeField(),$/;"	kind:variable	line:16
+field	../fees_management/migrations/0013_auto_20180705_0920.py	/^            field=models.DateTimeField(),$/;"	kind:variable	line:21
+field	../fees_management/migrations/0014_auto_20180705_0939.py	/^            field=models.DateTimeField(auto_now_add=True),$/;"	kind:variable	line:16
+field	../fees_management/migrations/0014_auto_20180705_0939.py	/^            field=models.IntegerField(default=0),$/;"	kind:variable	line:21
+field	../fees_management/migrations/0015_auto_20180705_0942.py	/^            field=models.DateTimeField(auto_now=True),$/;"	kind:variable	line:16
+field	../fees_management/migrations/0015_auto_20180705_0942.py	/^            field=models.DateTimeField(auto_now=True),$/;"	kind:variable	line:21
+field	../fees_management/migrations/0015_auto_20180705_0942.py	/^            field=models.DateTimeField(auto_now=True),$/;"	kind:variable	line:26
+field	../fees_management/migrations/0015_auto_20180705_0942.py	/^            field=models.DateTimeField(auto_now=True),$/;"	kind:variable	line:31
+field	../fees_management/migrations/0015_auto_20180705_0942.py	/^            field=models.DateTimeField(auto_now=True),$/;"	kind:variable	line:36
+fields	../attendence/forms.py	/^		fields = '__all__'/;"	kind:variable	line:7
+fields	../attendence/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+fields	../class_user_profiling/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:17
+fields	../class_user_profiling/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:33
+fields	../class_user_profiling/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:53
+fields	../class_user_profiling/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:71
+fields	../dashboard/forms.py	/^		fields = '__all__'	/;"	kind:variable	line:13
+fields	../dashboard/forms.py	/^		fields = '__all__'$/;"	kind:variable	line:7
+fields	../dashboard/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+fields	../dashboard/serializers.py	/^        fields = ('first_name', 'middle_name', 'last_name','email','mobile','dob','religion','caste','adhar_no','gender','blood_group')$/;"	kind:variable	line:8
+fields	../fees_management/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../fees_management/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:32
+fields	../fees_management/migrations/0002_auto_20180702_1110.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../fees_management/migrations/0003_auto_20180702_1122.py	/^            fields=[$/;"	kind:variable	line:17
+fields	../fees_management/migrations/0004_auto_20180702_1132.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../login/forms.py	/^        fields = ('username', 'email')$/;"	kind:variable	line:9
+fields	../login/forms.py	/^        fields = UserChangeForm.Meta.fields/;"	kind:variable	line:15
+fields	../manage_hr/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+fields	../manage_hr/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+fields	../manage_hr/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:67
+fields	../manage_hr/migrations/0002_dpyleavetypes.py	/^            fields=[$/;"	kind:variable	line:15
+fields	../onboarding/forms.py	/^        fields = ['name','institute_email','contact','board','nature','logo','school_image','university','address','city','pin_code','state',]$/;"	kind:variable	line:10
+fields	../onboarding/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:22
+fields	../onboarding/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:56
+fields	../onboarding/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:85
+fields	../onboarding/serializers.py	/^        fields = "__all__"$/;"	kind:variable	line:11
+fields	../onboarding/serializers.py	/^        fields = ('id', 'first_name', 'middle_name', 'last_name', 'email', 'mobile', 'image', 'password')$/;"	kind:variable	line:56
+fields	../onboarding/serializers.py	/^        fields = ('id', 'role', 'user', 'institute')$/;"	kind:variable	line:68
+first_name	../dashboard/models.py	/^    first_name = models.CharField(max_length=20)$/;"	kind:variable	line:5
+first_name	../manage_hr/models.py	/^    first_name = models.CharField(db_column='First Name', max_length=20)  # Field name made lowercase. Field renamed to remove unsuitable characters.$/;"	kind:variable	line:6
+form	../login/admin.py	/^    form = DpyUserChangeForm$/;"	kind:variable	line:12
+forms.py	../attendence/forms.py	1;"	kind:file	line:1
+forms.py	../dashboard/forms.py	1;"	kind:file	line:1
+forms.py	../login/forms.py	1;"	kind:file	line:1
+forms.py	../onboarding/forms.py	1;"	kind:file	line:1
+gender	../dashboard/models.py	/^    gender = models.CharField(max_length=20)$/;"	kind:variable	line:23
+gender	../manage_hr/models.py	/^    gender = models.CharField(db_column='Gender', max_length=10)  # Field name made lowercase.$/;"	kind:variable	line:11
+generate_username	../onboarding/serializers.py	/^def generate_username(first_name,last_name):$/;"	kind:function	line:20
+get	../login/views.py	/^    def get(self, request):$/;"	kind:member	line:19
+get	../onboarding/views.py	/^    def get(self, request, format=None):$/;"	kind:member	line:18
+get_full_name	../onboarding/models.py	/^    def get_full_name(self):$/;"	kind:member	line:57
+get_list	../dashboard/templatetags/get_list.py	/^def get_list(querydict, itemToGet ):$/;"	kind:function	line:8
+get_list.py	../dashboard/templatetags/get_list.py	1;"	kind:file	line:1
+get_short_name	../onboarding/models.py	/^    def get_short_name(self):$/;"	kind:member	line:65
+get_user	../login/backends.py	/^    def get_user(self, user_id):$/;"	kind:member	line:11
+gr_no	../dashboard/models.py	/^    gr_no = models.IntegerField()$/;"	kind:variable	line:11
+home	../manage_hr/views.py	/^def home(request):$/;"	kind:function	line:19
+home_view	../dashboard/views.py	/^def home_view(request):$/;"	kind:function	line:133
+house	../dashboard/models.py	/^    house = models.CharField(max_length=20)$/;"	kind:variable	line:21
+hra	../manage_hr/models.py	/^    hra = models.IntegerField()$/;"	kind:variable	line:66
+ic	../class_user_profiling/models.py	/^    ic = models.ForeignKey(DpyInstituteClass, on_delete=models.PROTECT)$/;"	kind:variable	line:44
+image	../onboarding/models.py	/^    image = models.ImageField(default='emp_default.png', blank=True)$/;"	kind:variable	line:46
+incomplete_student	../dashboard/views.py	/^def incomplete_student(request):$/;"	kind:function	line:454
+initial	../attendence/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+initial	../class_user_profiling/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:9
+initial	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	/^    initial = True$/;"	kind:variable	line:9
+initial	../dashboard/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+initial	../fees_management/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:9
+initial	../manage_hr/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+initial	../onboarding/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:13
+insert_emp	../manage_hr/views.py	/^def insert_emp(request):$/;"	kind:function	line:43
+insert_leave	../manage_hr/views.py	/^def insert_leave(request):$/;"	kind:function	line:54
+institute	../class_user_profiling/models.py	/^    institute = models.ForeignKey(DpyInstitute, on_delete=models.PROTECT)$/;"	kind:variable	line:24
+institute	../manage_hr/models.py	/^    institute = models.ForeignKey(DpyInstitute, models.DO_NOTHING)$/;"	kind:variable	line:5
+institute	../manage_hr/models.py	/^    institute = models.ForeignKey(DpyInstitute, models.PROTECT)$/;"	kind:variable	line:48
+institute	../manage_hr/models.py	/^    institute = models.ForeignKey(DpyInstitute, models.PROTECT)$/;"	kind:variable	line:62
+institute	../onboarding/models.py	/^    institute = models.ForeignKey(DpyInstitute, on_delete=models.PROTECT)$/;"	kind:variable	line:79
+institute	../onboarding/serializers.py	/^    institute = InstituteSerializer(read_only=True)$/;"	kind:variable	line:65
+institute_class	../fees_management/models.py	/^    institute_class = models.ForeignKey(DpyInstituteClass, models.DO_NOTHING)$/;"	kind:variable	line:29
+institute_class_fee_id	../fees_management/models.py	/^    institute_class_fee_id = models.ForeignKey(DpyInstituteClassFee, models.DO_NOTHING)$/;"	kind:variable	line:42
+institute_class_fee_id	../fees_management/models.py	/^    institute_class_fee_id = models.ForeignKey(DpyInstituteClassFee, models.DO_NOTHING)$/;"	kind:variable	line:77
+institute_email	../onboarding/models.py	/^    institute_email = models.EmailField(max_length=100,null=True)$/;"	kind:variable	line:15
+institute_id	../dashboard/models.py	/^    institute_id = models.IntegerField()$/;"	kind:variable	line:28
+institute_id	../fees_management/models.py	/^    institute_id = models.ForeignKey(DpyInstitute, models.DO_NOTHING)$/;"	kind:variable	line:59
+institute_id	../manage_hr/views.py	/^def institute_id(request):$/;"	kind:function	line:12
+is_active	../onboarding/models.py	/^    is_active = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:84
+last_name	../dashboard/models.py	/^    last_name = models.CharField(max_length=20)$/;"	kind:variable	line:7
+last_name	../manage_hr/models.py	/^    last_name = models.CharField(db_column='Last Name', max_length=20)  # Field name made lowercase. Field renamed to remove unsuitable characters.$/;"	kind:variable	line:8
+leave	../manage_hr/views.py	/^def leave(request):$/;"	kind:function	line:63
+leave_name	../manage_hr/models.py	/^    leave_name = models.CharField(db_column='Leave_name', max_length=50)  # Field name made lowercase.$/;"	kind:variable	line:49
+leave_type	../manage_hr/models.py	/^    leave_type = models.CharField(max_length=25)$/;"	kind:variable	line:32
+leavename	../manage_hr/views.py	/^def leavename(request): $/;"	kind:function	line:75
+leaves_remaining	../manage_hr/models.py	/^    leaves_remaining = models.IntegerField(db_column='Leaves_remaining')  # Field name made lowercase.$/;"	kind:variable	line:50
+list_display	../login/admin.py	/^    list_display = ['email', 'username', 'mobile', ]$/;"	kind:variable	line:14
+login_view	../login/views.py	/^def login_view(request):$/;"	kind:function	line:10
+logo	../onboarding/models.py	/^    logo = models.ImageField(default='institute_logo.png', blank=True)$/;"	kind:variable	line:19
+manage.py	../manage.py	1;"	kind:file	line:1
+managed	../attendence/models.py	/^        managed = False$/;"	kind:variable	line:14
+managed	../dashboard/models.py	/^        managed = False$/;"	kind:variable	line:30
+managed	../fees_management/models.py	/^        managed = False$/;"	kind:variable	line:14
+managed	../fees_management/models.py	/^        managed = False$/;"	kind:variable	line:32
+managed	../fees_management/models.py	/^        managed = False$/;"	kind:variable	line:46
+managed	../fees_management/models.py	/^        managed = False$/;"	kind:variable	line:62
+managed	../fees_management/models.py	/^        managed = False$/;"	kind:variable	line:82
+managed	../manage_hr/models.py	/^        managed = False$/;"	kind:variable	line:25
+managed	../manage_hr/models.py	/^        managed = False$/;"	kind:variable	line:42
+managed	../manage_hr/models.py	/^        managed = False$/;"	kind:variable	line:57
+managed	../manage_hr/models.py	/^        managed = False$/;"	kind:variable	line:82
+managers	../onboarding/migrations/0001_initial.py	/^            managers=[$/;"	kind:variable	line:50
+med	../manage_hr/models.py	/^    med = models.IntegerField()$/;"	kind:variable	line:71
+medium	../onboarding/models.py	/^    medium = models.PositiveSmallIntegerField()$/;"	kind:variable	line:21
+middle_name	../dashboard/models.py	/^    middle_name = models.CharField(max_length=20)$/;"	kind:variable	line:6
+middle_name	../manage_hr/models.py	/^    middle_name = models.CharField(db_column='Middle Name', max_length=20)  # Field name made lowercase. Field renamed to remove unsuitable characters.$/;"	kind:variable	line:7
+middle_name	../onboarding/models.py	/^    middle_name = models.CharField(max_length=75, null=True, blank=True)$/;"	kind:variable	line:43
+mobile	../dashboard/models.py	/^    mobile = models.CharField(max_length=12)$/;"	kind:variable	line:25
+mobile	../onboarding/models.py	/^    mobile = models.CharField(max_length=16, unique=True,null=True)$/;"	kind:variable	line:44
+mobile_number	../manage_hr/models.py	/^    mobile_number = models.CharField(db_column='Mobile Number', max_length=12)  # Field name made lowercase. Field renamed to remove unsuitable characters.$/;"	kind:variable	line:14
+model	../attendence/forms.py	/^		model = models.DpyStudentsAbsenties$/;"	kind:variable	line:6
+model	../dashboard/forms.py	/^		model = models.DpyStudents$/;"	kind:variable	line:12
+model	../dashboard/forms.py	/^		model = models.DpyStudents$/;"	kind:variable	line:6
+model	../dashboard/resources.py	/^        model = DpyStudents$/;"	kind:variable	line:6
+model	../dashboard/resources.py	/^        model = DpyUsers/;"	kind:variable	line:11
+model	../dashboard/serializers.py	/^        model = DpyStudents$/;"	kind:variable	line:7
+model	../login/admin.py	/^    model = DpyUsers$/;"	kind:variable	line:13
+model	../login/forms.py	/^        model = DpyUsers$/;"	kind:variable	line:14
+model	../login/forms.py	/^        model = DpyUsers$/;"	kind:variable	line:8
+model	../onboarding/forms.py	/^        model = models.DpyInstitute$/;"	kind:variable	line:9
+model	../onboarding/serializers.py	/^        model = DpyInstitute$/;"	kind:variable	line:9
+model	../onboarding/serializers.py	/^        model = DpyInstituteUsers$/;"	kind:variable	line:67
+model	../onboarding/serializers.py	/^        model = DpyUsers$/;"	kind:variable	line:55
+model_name	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	/^            model_name='dpyinstituteclass',$/;"	kind:variable	line:18
+model_name	../fees_management/migrations/0002_auto_20180702_1110.py	/^            model_name='dpyuserfeeignore',$/;"	kind:variable	line:37
+model_name	../fees_management/migrations/0002_auto_20180702_1110.py	/^            model_name='dpyuserfeeignore',$/;"	kind:variable	line:42
+model_name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            model_name='dpyfeetransaction',$/;"	kind:variable	line:42
+model_name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            model_name='dpyfeetransaction',$/;"	kind:variable	line:47
+model_name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            model_name='dpyfeetransaction',$/;"	kind:variable	line:52
+model_name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:37
+model_name	../fees_management/migrations/0005_auto_20180703_1204.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0005_auto_20180703_1204.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:19
+model_name	../fees_management/migrations/0005_auto_20180703_1204.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:24
+model_name	../fees_management/migrations/0006_auto_20180703_1228.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0006_auto_20180703_1228.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:19
+model_name	../fees_management/migrations/0007_auto_20180704_0758.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0008_auto_20180705_0759.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:15
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:20
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:25
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:30
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:35
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:40
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:45
+model_name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:50
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:15
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:20
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:25
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:30
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:35
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:40
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:45
+model_name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:50
+model_name	../fees_management/migrations/0011_auto_20180705_0919.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0012_auto_20180705_0919.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0013_auto_20180705_0920.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0013_auto_20180705_0920.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:19
+model_name	../fees_management/migrations/0014_auto_20180705_0939.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0014_auto_20180705_0939.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:19
+model_name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            model_name='dpyfeetransaction',$/;"	kind:variable	line:14
+model_name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            model_name='dpyfeetype',$/;"	kind:variable	line:19
+model_name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            model_name='dpyinstituteclassfee',$/;"	kind:variable	line:24
+model_name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            model_name='dpypaymentreceipt',$/;"	kind:variable	line:29
+model_name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            model_name='dpyuserfeeignore',$/;"	kind:variable	line:34
+models.py	../attendence/models.py	1;"	kind:file	line:1
+models.py	../class_user_profiling/models.py	1;"	kind:file	line:1
+models.py	../dashboard/models.py	1;"	kind:file	line:1
+models.py	../fees_management/models.py	1;"	kind:file	line:1
+models.py	../login/models.py	1;"	kind:file	line:1
+models.py	../manage_hr/models.py	1;"	kind:file	line:1
+models.py	../onboarding/models.py	1;"	kind:file	line:1
+month	../manage_hr/models.py	/^    month = models.CharField(max_length=20)$/;"	kind:variable	line:63
+mop	../fees_management/models.py	/^    mop = models.IntegerField()$/;"	kind:variable	line:52
+mop	../fees_management/models.py	/^    mop = models.IntegerField()$/;"	kind:variable	line:71
+mother_name	../dashboard/models.py	/^    mother_name = models.CharField(max_length=20)$/;"	kind:variable	line:8
+name	../attendence/apps.py	/^    name = 'attendence'$/;"	kind:variable	line:5
+name	../attendence/migrations/0001_initial.py	/^            name='DpyStudentsAbsenties',$/;"	kind:variable	line:15
+name	../class_user_profiling/apps.py	/^    name = 'class_user_profiling'$/;"	kind:variable	line:5
+name	../class_user_profiling/migrations/0001_initial.py	/^            name='DpyDepartment',$/;"	kind:variable	line:16
+name	../class_user_profiling/migrations/0001_initial.py	/^            name='DpyInstituteClass',$/;"	kind:variable	line:32
+name	../class_user_profiling/migrations/0001_initial.py	/^            name='DpyInstituteClassSession',$/;"	kind:variable	line:52
+name	../class_user_profiling/migrations/0001_initial.py	/^            name='DpyInstituteClassSessionSubjects',$/;"	kind:variable	line:70
+name	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	/^            name='institute',$/;"	kind:variable	line:19
+name	../class_user_profiling/models.py	/^    name = models.CharField(max_length=255)$/;"	kind:variable	line:7
+name	../dashboard/apps.py	/^    name = 'dashboard'$/;"	kind:variable	line:5
+name	../dashboard/migrations/0001_initial.py	/^            name='DpyStudents',$/;"	kind:variable	line:15
+name	../fees_management/apps.py	/^    name = 'fees_management'$/;"	kind:variable	line:5
+name	../fees_management/migrations/0001_initial.py	/^            name='DpyFeeType',$/;"	kind:variable	line:17
+name	../fees_management/migrations/0001_initial.py	/^            name='DpyInstituteClassFee',$/;"	kind:variable	line:31
+name	../fees_management/migrations/0002_auto_20180702_1110.py	/^            name='DpyUserFeeIgnore',$/;"	kind:variable	line:17
+name	../fees_management/migrations/0002_auto_20180702_1110.py	/^            name='dpyfeetype',$/;"	kind:variable	line:29
+name	../fees_management/migrations/0002_auto_20180702_1110.py	/^            name='dpyinstituteclassfee',$/;"	kind:variable	line:33
+name	../fees_management/migrations/0002_auto_20180702_1110.py	/^            name='institute_class_fee_id',$/;"	kind:variable	line:38
+name	../fees_management/migrations/0002_auto_20180702_1110.py	/^            name='user_id',$/;"	kind:variable	line:43
+name	../fees_management/migrations/0003_auto_20180702_1122.py	/^            name='DpyPaymentReceipt',$/;"	kind:variable	line:16
+name	../fees_management/migrations/0003_auto_20180702_1122.py	/^            name='dpyuserfeeignore',$/;"	kind:variable	line:36
+name	../fees_management/migrations/0003_auto_20180702_1122.py	/^            name='dpyuserfeeignore',$/;"	kind:variable	line:40
+name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            name='DpyFeeTransaction',$/;"	kind:variable	line:17
+name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            name='bifercations',$/;"	kind:variable	line:38
+name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            name='institute_class_fee_id',$/;"	kind:variable	line:43
+name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            name='receipt_id',$/;"	kind:variable	line:48
+name	../fees_management/migrations/0004_auto_20180702_1132.py	/^            name='user_id',$/;"	kind:variable	line:53
+name	../fees_management/migrations/0005_auto_20180703_1204.py	/^            name='amount',$/;"	kind:variable	line:15
+name	../fees_management/migrations/0005_auto_20180703_1204.py	/^            name='bifercations',$/;"	kind:variable	line:20
+name	../fees_management/migrations/0005_auto_20180703_1204.py	/^            name='status',$/;"	kind:variable	line:25
+name	../fees_management/migrations/0008_auto_20180705_0759.py	/^            name='updated_on',$/;"	kind:variable	line:15
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='added_by',$/;"	kind:variable	line:16
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='added_on',$/;"	kind:variable	line:21
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='bifurcations',$/;"	kind:variable	line:26
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='fee_type',$/;"	kind:variable	line:31
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='institute_class',$/;"	kind:variable	line:36
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='status',$/;"	kind:variable	line:41
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='updated_by',$/;"	kind:variable	line:46
+name	../fees_management/migrations/0009_auto_20180705_0806.py	/^            name='updated_on',$/;"	kind:variable	line:51
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='added_by',$/;"	kind:variable	line:16
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='added_on',$/;"	kind:variable	line:21
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='bifurcations',$/;"	kind:variable	line:26
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='fee_type',$/;"	kind:variable	line:31
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='institute_class',$/;"	kind:variable	line:36
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='status',$/;"	kind:variable	line:41
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='updated_by',$/;"	kind:variable	line:46
+name	../fees_management/migrations/0010_auto_20180705_0808.py	/^            name='updated_on',$/;"	kind:variable	line:51
+name	../fees_management/migrations/0011_auto_20180705_0919.py	/^            name='updated_on',$/;"	kind:variable	line:15
+name	../fees_management/migrations/0012_auto_20180705_0919.py	/^            name='updated_on',$/;"	kind:variable	line:15
+name	../fees_management/migrations/0013_auto_20180705_0920.py	/^            name='added_on',$/;"	kind:variable	line:15
+name	../fees_management/migrations/0013_auto_20180705_0920.py	/^            name='updated_on',$/;"	kind:variable	line:20
+name	../fees_management/migrations/0014_auto_20180705_0939.py	/^            name='added_on',$/;"	kind:variable	line:15
+name	../fees_management/migrations/0014_auto_20180705_0939.py	/^            name='updated_on',$/;"	kind:variable	line:20
+name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            name='updated_on',$/;"	kind:variable	line:15
+name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            name='updated_on',$/;"	kind:variable	line:20
+name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            name='updated_on',$/;"	kind:variable	line:25
+name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            name='updated_on',$/;"	kind:variable	line:30
+name	../fees_management/migrations/0015_auto_20180705_0942.py	/^            name='updated_on',$/;"	kind:variable	line:35
+name	../fees_management/migrations/0016_auto_20180705_0956.py	/^            name='dpyfeetransaction',$/;"	kind:variable	line:14
+name	../fees_management/migrations/0016_auto_20180705_0956.py	/^            name='dpyfeetype',$/;"	kind:variable	line:18
+name	../fees_management/migrations/0016_auto_20180705_0956.py	/^            name='dpyinstituteclassfee',$/;"	kind:variable	line:22
+name	../fees_management/migrations/0016_auto_20180705_0956.py	/^            name='dpypaymentreceipt',$/;"	kind:variable	line:26
+name	../fees_management/migrations/0016_auto_20180705_0956.py	/^            name='dpyuserfeeignore',$/;"	kind:variable	line:30
+name	../login/apps.py	/^    name = 'login'$/;"	kind:variable	line:5
+name	../manage_hr/apps.py	/^    name = 'manage_hr'$/;"	kind:variable	line:5
+name	../manage_hr/migrations/0001_initial.py	/^            name='DpyEmployee',$/;"	kind:variable	line:15
+name	../manage_hr/migrations/0001_initial.py	/^            name='DpyEmployeeSalaryStructure',$/;"	kind:variable	line:39
+name	../manage_hr/migrations/0001_initial.py	/^            name='Leave',$/;"	kind:variable	line:66
+name	../manage_hr/migrations/0002_dpyleavetypes.py	/^            name='DpyLeaveTypes',$/;"	kind:variable	line:14
+name	../onboarding/apps.py	/^    name = 'onboarding'$/;"	kind:variable	line:5
+name	../onboarding/migrations/0001_initial.py	/^            name='DpyInstitute',$/;"	kind:variable	line:55
+name	../onboarding/migrations/0001_initial.py	/^            name='DpyInstituteUsers',$/;"	kind:variable	line:84
+name	../onboarding/migrations/0001_initial.py	/^            name='DpyUsers',$/;"	kind:variable	line:21
+name	../onboarding/models.py	/^    name = models.CharField(max_length=100)$/;"	kind:variable	line:14
+nationality	../dashboard/models.py	/^    nationality = models.CharField(max_length=20)$/;"	kind:variable	line:16
+nature	../onboarding/models.py	/^    nature = models.PositiveSmallIntegerField()$/;"	kind:variable	line:18
+new_name	../fees_management/migrations/0006_auto_20180703_1228.py	/^            new_name='fee_type',$/;"	kind:variable	line:16
+new_name	../fees_management/migrations/0006_auto_20180703_1228.py	/^            new_name='institute_class',$/;"	kind:variable	line:21
+new_name	../fees_management/migrations/0007_auto_20180704_0758.py	/^            new_name='bifurcations',$/;"	kind:variable	line:16
+numleave	../manage_hr/views.py	/^def numleave(request): $/;"	kind:function	line:89
+old_name	../fees_management/migrations/0006_auto_20180703_1228.py	/^            old_name='fee_type_id',$/;"	kind:variable	line:15
+old_name	../fees_management/migrations/0006_auto_20180703_1228.py	/^            old_name='institute_class_id',$/;"	kind:variable	line:20
+old_name	../fees_management/migrations/0007_auto_20180704_0758.py	/^            old_name='bifercations',$/;"	kind:variable	line:15
+operations	../attendence/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../class_user_profiling/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../class_user_profiling/migrations/0002_dpyinstituteclass_institute.py	/^    operations = [$/;"	kind:variable	line:16
+operations	../dashboard/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../fees_management/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../fees_management/migrations/0002_auto_20180702_1110.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../fees_management/migrations/0003_auto_20180702_1122.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../fees_management/migrations/0004_auto_20180702_1132.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../fees_management/migrations/0005_auto_20180703_1204.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0006_auto_20180703_1228.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0007_auto_20180704_0758.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0008_auto_20180705_0759.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0009_auto_20180705_0806.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../fees_management/migrations/0010_auto_20180705_0808.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../fees_management/migrations/0011_auto_20180705_0919.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0012_auto_20180705_0919.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0013_auto_20180705_0920.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0014_auto_20180705_0939.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0015_auto_20180705_0942.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../fees_management/migrations/0016_auto_20180705_0956.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../manage_hr/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../manage_hr/migrations/0002_dpyleavetypes.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../onboarding/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:19
+options	../attendence/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:27
+options	../class_user_profiling/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:26
+options	../class_user_profiling/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:46
+options	../class_user_profiling/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:64
+options	../class_user_profiling/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:80
+options	../dashboard/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:43
+options	../fees_management/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:26
+options	../fees_management/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:46
+options	../fees_management/migrations/0002_auto_20180702_1110.py	/^            options={'verbose_name': 'Institute Class Fee'},$/;"	kind:variable	line:34
+options	../fees_management/migrations/0002_auto_20180702_1110.py	/^            options={'verbose_name': 'dpy_fee_type'},$/;"	kind:variable	line:30
+options	../fees_management/migrations/0003_auto_20180702_1122.py	/^            options={$/;"	kind:variable	line:30
+options	../fees_management/migrations/0003_auto_20180702_1122.py	/^            options={'verbose_name': 'Dpy User Fee Ignore'},$/;"	kind:variable	line:37
+options	../fees_management/migrations/0004_auto_20180702_1132.py	/^            options={$/;"	kind:variable	line:31
+options	../fees_management/migrations/0016_auto_20180705_0956.py	/^            options={'managed': False},$/;"	kind:variable	line:15
+options	../fees_management/migrations/0016_auto_20180705_0956.py	/^            options={'managed': False},$/;"	kind:variable	line:19
+options	../fees_management/migrations/0016_auto_20180705_0956.py	/^            options={'managed': False},$/;"	kind:variable	line:23
+options	../fees_management/migrations/0016_auto_20180705_0956.py	/^            options={'managed': False},$/;"	kind:variable	line:27
+options	../fees_management/migrations/0016_auto_20180705_0956.py	/^            options={'managed': False},$/;"	kind:variable	line:31
+options	../manage_hr/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:33
+options	../manage_hr/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:60
+options	../manage_hr/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:80
+options	../manage_hr/migrations/0002_dpyleavetypes.py	/^            options={$/;"	kind:variable	line:24
+options	../onboarding/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:100
+options	../onboarding/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:46
+options	../onboarding/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:78
+others	../manage_hr/models.py	/^    others = models.IntegerField()$/;"	kind:variable	line:72
+paid_amount	../fees_management/models.py	/^    paid_amount = models.FloatField()$/;"	kind:variable	line:67
+paid_leaves	../manage_hr/models.py	/^    paid_leaves = models.CharField(max_length=50)$/;"	kind:variable	line:17
+password	../onboarding/serializers.py	/^    password = serializers.CharField(min_length=8)$/;"	kind:variable	line:40
+pay	../fees_management/views.py	/^def pay(request):$/;"	kind:function	line:75
+percent_discount	../fees_management/models.py	/^    percent_discount = models.FloatField()$/;"	kind:variable	line:36
+permanent_address	../dashboard/models.py	/^    permanent_address = models.CharField(max_length=255)$/;"	kind:variable	line:19
+permission_classes	../dashboard/views.py	/^    permission_classes = (IsAuthenticated,)$/;"	kind:variable	line:158
+permission_classes	../onboarding/views.py	/^    permission_classes = (AllowAny,)$/;"	kind:variable	line:17
+pf	../manage_hr/models.py	/^    pf = models.IntegerField()$/;"	kind:variable	line:74
+pin_code	../onboarding/models.py	/^    pin_code = models.IntegerField()$/;"	kind:variable	line:25
+post	../dashboard/views.py	/^    def post(self, request, format=None):$/;"	kind:member	line:160
+post	../onboarding/views.py	/^    def post(self, request, format=None):$/;"	kind:member	line:21
+profile_edit	../dashboard/views.py	/^def profile_edit(request):$/;"	kind:function	line:423
+profile_view	../dashboard/views.py	/^def profile_view(request):$/;"	kind:function	line:151
+pt	../manage_hr/models.py	/^    pt = models.IntegerField()$/;"	kind:variable	line:75
+reason	../manage_hr/models.py	/^    reason = models.CharField(max_length=200)$/;"	kind:variable	line:35
+receipt_amount	../fees_management/models.py	/^    receipt_amount = models.FloatField()$/;"	kind:variable	line:53
+receipt_id	../fees_management/models.py	/^    receipt_id = models.ForeignKey(DpyPaymentReceipt, models.DO_NOTHING)$/;"	kind:variable	line:78
+register	../dashboard/templatetags/get_list.py	/^register = template.Library()$/;"	kind:variable	line:3
+register_students	../dashboard/views.py	/^def register_students(request):$/;"	kind:function	line:315
+religion	../dashboard/models.py	/^    religion = models.CharField(max_length=20)$/;"	kind:variable	line:17
+resources.py	../dashboard/resources.py	1;"	kind:file	line:1
+response	../fees_management/models.py	/^    response = models.TextField(blank=True, null=True)$/;"	kind:variable	line:51
+role	../onboarding/models.py	/^    role = models.PositiveSmallIntegerField()$/;"	kind:variable	line:80
+roll_no	../dashboard/models.py	/^    roll_no = models.IntegerField()$/;"	kind:variable	line:10
+salary	../manage_hr/views.py	/^def salary(request):$/;"	kind:function	line:26
+salary_structure	../manage_hr/views.py	/^def salary_structure(request):$/;"	kind:function	line:32
+school_image	../onboarding/models.py	/^    school_image = models.ImageField(default='institue_default.png', blank=True)$/;"	kind:variable	line:20
+section	../dashboard/models.py	/^    section = models.CharField(max_length=12,default = "", null=True)$/;"	kind:variable	line:27
+serializers.py	../dashboard/serializers.py	1;"	kind:file	line:1
+serializers.py	../onboarding/serializers.py	1;"	kind:file	line:1
+settings.py	../dmkpython/settings.py	1;"	kind:file	line:1
+sick_leaves	../manage_hr/models.py	/^    sick_leaves = models.CharField(max_length=50)$/;"	kind:variable	line:18
+sort_index	../class_user_profiling/models.py	/^    sort_index = models.PositiveSmallIntegerField(default=0)$/;"	kind:variable	line:28
+spal	../manage_hr/models.py	/^    spal = models.IntegerField()$/;"	kind:variable	line:70
+special_quata	../dashboard/models.py	/^    special_quata = models.CharField(max_length=20)$/;"	kind:variable	line:22
+standard	../class_user_profiling/models.py	/^    standard = models.CharField(max_length=255)$/;"	kind:variable	line:25
+start_date	../manage_hr/models.py	/^    start_date = models.CharField(max_length=25)$/;"	kind:variable	line:33
+start_month	../class_user_profiling/models.py	/^    start_month = models.PositiveSmallIntegerField()$/;"	kind:variable	line:45
+state	../onboarding/models.py	/^    state = models.CharField(max_length=20, null=True, blank=True)$/;"	kind:variable	line:26
+status	../attendence/models.py	/^    status = models.IntegerField(default=1)$/;"	kind:variable	line:8
+status	../class_user_profiling/models.py	/^    status = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:29
+status	../class_user_profiling/models.py	/^    status = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:47
+status	../class_user_profiling/models.py	/^    status = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:62
+status	../class_user_profiling/models.py	/^    status = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:8
+status	../fees_management/models.py	/^    status = models.PositiveSmallIntegerField()$/;"	kind:variable	line:23
+status	../fees_management/models.py	/^    status = models.PositiveSmallIntegerField()$/;"	kind:variable	line:37
+status	../fees_management/models.py	/^    status = models.PositiveSmallIntegerField()$/;"	kind:variable	line:54
+status	../fees_management/models.py	/^    status = models.PositiveSmallIntegerField()$/;"	kind:variable	line:72
+status	../onboarding/models.py	/^    status = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:28
+status	../onboarding/models.py	/^    status = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:47
+status	../onboarding/models.py	/^    status = models.PositiveSmallIntegerField(default=1)$/;"	kind:variable	line:85
+structure	../manage_hr/views.py	/^def structure(request):$/;"	kind:function	line:103
+student_class	../dashboard/models.py	/^    student_class = models.CharField(max_length=12,default = "", null=True)$/;"	kind:variable	line:26
+student_id	../attendence/models.py	/^    student_id = models.IntegerField()$/;"	kind:variable	line:6
+student_profile	../dashboard/views.py	/^def student_profile(request, id=None):$/;"	kind:function	line:362
+student_type	../dashboard/models.py	/^    student_type = models.CharField(max_length=20)$/;"	kind:variable	line:24
+supports_anonymous_user	../login/backends.py	/^    supports_anonymous_user = False$/;"	kind:variable	line:7
+supports_inactive_user	../login/backends.py	/^    supports_inactive_user = False$/;"	kind:variable	line:8
+supports_object_permissions	../login/backends.py	/^    supports_object_permissions = True$/;"	kind:variable	line:6
+ta	../manage_hr/models.py	/^    ta = models.IntegerField()$/;"	kind:variable	line:67
+table	../fees_management/migrations/0003_auto_20180702_1122.py	/^            table='dpy_user_fee_ignore',$/;"	kind:variable	line:41
+take_attendence	../attendence/views.py	/^def take_attendence(request):$/;"	kind:function	line:20
+tds	../manage_hr/models.py	/^    tds = models.IntegerField()$/;"	kind:variable	line:73
+teacher_id	../attendence/models.py	/^    teacher_id = models.IntegerField()$/;"	kind:variable	line:7
+tests.py	../attendence/tests.py	1;"	kind:file	line:1
+tests.py	../class_user_profiling/tests.py	1;"	kind:file	line:1
+tests.py	../dashboard/tests.py	1;"	kind:file	line:1
+tests.py	../fees_management/tests.py	1;"	kind:file	line:1
+tests.py	../login/tests.py	1;"	kind:file	line:1
+tests.py	../manage_hr/tests.py	1;"	kind:file	line:1
+tests.py	../onboarding/tests.py	1;"	kind:file	line:1
+timetable_view	../class_user_profiling/views.py	/^def timetable_view(request):$/;"	kind:function	line:6
+token_or_chequeno	../fees_management/models.py	/^    token_or_chequeno = models.TextField(blank=True, null=True)$/;"	kind:variable	line:50
+university	../onboarding/models.py	/^    university = models.CharField(max_length=100, null=True, blank=True)$/;"	kind:variable	line:22
+update_profile	../dashboard/views.py	/^def update_profile(request):$/;"	kind:function	line:429
+update_student_profile	../dashboard/views.py	/^def update_student_profile(request, id=None):$/;"	kind:function	line:371
+update_user	../manage_hr/views.py	/^def update_user(request):$/;"	kind:function	line:37
+updated_by	../attendence/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:12
+updated_by	../class_user_profiling/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:12
+updated_by	../class_user_profiling/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:33
+updated_by	../class_user_profiling/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:51
+updated_by	../class_user_profiling/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:66
+updated_by	../fees_management/models.py	/^    updated_by = models.IntegerField()$/;"	kind:variable	line:10
+updated_by	../fees_management/models.py	/^    updated_by = models.IntegerField()$/;"	kind:variable	line:26
+updated_by	../fees_management/models.py	/^    updated_by = models.IntegerField()$/;"	kind:variable	line:40
+updated_by	../fees_management/models.py	/^    updated_by = models.IntegerField()$/;"	kind:variable	line:57
+updated_by	../fees_management/models.py	/^    updated_by = models.IntegerField()$/;"	kind:variable	line:75
+updated_by	../manage_hr/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:22
+updated_by	../manage_hr/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:39
+updated_by	../manage_hr/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:54
+updated_by	../manage_hr/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:79
+updated_by	../onboarding/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:32
+updated_by	../onboarding/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:51
+updated_by	../onboarding/models.py	/^    updated_by = models.IntegerField(default=0)$/;"	kind:variable	line:89
+updated_on	../attendence/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:11
+updated_on	../class_user_profiling/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:11
+updated_on	../class_user_profiling/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:32
+updated_on	../class_user_profiling/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:50
+updated_on	../class_user_profiling/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:65
+updated_on	../fees_management/models.py	/^    updated_on = models.DateTimeField()$/;"	kind:variable	line:11
+updated_on	../fees_management/models.py	/^    updated_on = models.DateTimeField()$/;"	kind:variable	line:27
+updated_on	../fees_management/models.py	/^    updated_on = models.DateTimeField()$/;"	kind:variable	line:41
+updated_on	../fees_management/models.py	/^    updated_on = models.DateTimeField()$/;"	kind:variable	line:58
+updated_on	../fees_management/models.py	/^    updated_on = models.DateTimeField()$/;"	kind:variable	line:76
+updated_on	../manage_hr/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:21
+updated_on	../manage_hr/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:38
+updated_on	../manage_hr/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:53
+updated_on	../manage_hr/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:78
+updated_on	../onboarding/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:31
+updated_on	../onboarding/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:50
+updated_on	../onboarding/models.py	/^    updated_on = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:88
+urlpatterns	../attendence/urls.py	/^urlpatterns = [$/;"	kind:variable	line:8
+urlpatterns	../class_user_profiling/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	../dashboard/urls.py	/^urlpatterns = [$/;"	kind:variable	line:8
+urlpatterns	../dmkpython/urls.py	/^urlpatterns = [$/;"	kind:variable	line:24
+urlpatterns	../fees_management/urls.py	/^urlpatterns = [$/;"	kind:variable	line:11
+urlpatterns	../login/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	../manage_hr/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	../onboarding/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urls.py	../attendence/urls.py	1;"	kind:file	line:1
+urls.py	../class_user_profiling/urls.py	1;"	kind:file	line:1
+urls.py	../dashboard/urls.py	1;"	kind:file	line:1
+urls.py	../dmkpython/urls.py	1;"	kind:file	line:1
+urls.py	../fees_management/urls.py	1;"	kind:file	line:1
+urls.py	../login/urls.py	1;"	kind:file	line:1
+urls.py	../manage_hr/urls.py	1;"	kind:file	line:1
+urls.py	../onboarding/urls.py	1;"	kind:file	line:1
+user	../onboarding/models.py	/^    user = models.ForeignKey(DpyUsers,on_delete=models.PROTECT)$/;"	kind:variable	line:78
+user	../onboarding/serializers.py	/^    user = UserSerializer(read_only=True)$/;"	kind:variable	line:64
+user_id	../fees_management/models.py	/^    user_id = models.ForeignKey(DpyUsers, models.DO_NOTHING)$/;"	kind:variable	line:43
+user_id	../fees_management/models.py	/^    user_id = models.ForeignKey(DpyUsers, models.DO_NOTHING)$/;"	kind:variable	line:79
+user_info	../login/context_processor.py	/^def user_info(request):$/;"	kind:function	line:7
+verbose_name	../class_user_profiling/models.py	/^        verbose_name = "Class Session Subject"$/;"	kind:variable	line:70
+verbose_name	../class_user_profiling/models.py	/^        verbose_name = "Department"$/;"	kind:variable	line:16
+verbose_name	../class_user_profiling/models.py	/^        verbose_name = "Institute Class Session"$/;"	kind:variable	line:55
+verbose_name	../class_user_profiling/models.py	/^        verbose_name = "Institute Class"$/;"	kind:variable	line:37
+verbose_name	../onboarding/models.py	/^        verbose_name = "Institute User"$/;"	kind:variable	line:93
+verbose_name	../onboarding/models.py	/^        verbose_name = "Institute"$/;"	kind:variable	line:36
+verbose_name	../onboarding/models.py	/^        verbose_name = "User"$/;"	kind:variable	line:55
+view_students	../dashboard/views.py	/^def view_students(request):$/;"	kind:function	line:350
+views.py	../attendence/views.py	1;"	kind:file	line:1
+views.py	../class_user_profiling/views.py	1;"	kind:file	line:1
+views.py	../dashboard/views.py	1;"	kind:file	line:1
+views.py	../fees_management/views.py	1;"	kind:file	line:1
+views.py	../login/views.py	1;"	kind:file	line:1
+views.py	../manage_hr/views.py	1;"	kind:file	line:1
+views.py	../onboarding/views.py	1;"	kind:file	line:1
+wsgi.py	../dmkpython/wsgi.py	1;"	kind:file	line:1
+year	../manage_hr/models.py	/^    year = models.CharField(max_length=20)$/;"	kind:variable	line:64
